@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply now to study MBBS Abroad. Find top countries, admission process, and programs to begin your journey.">
+    <meta name="keywords" content="Study MBBS Abroad, Study Medicine, MBBS Programs, MBBS Admission, Top Countries to Study MBBS">
+    <meta name="author" content="Study MBBS Abroad">
+    <title>Study MBBS Abroad</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+        background: linear-gradient(135deg, #eff0fb, #d0eff3); /* gradient applied here */
+        color: white;
+        height: 100vh;
+    }
+        .hover:scale-105 {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #9a9aea, #95edf7);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #fafbcf, #cdb7e7); 
+        }
+
+        .light-blue-bg {
+            background-color: #e0f7fa; 
+        }
+
+        .light-green-bg {
+            background-color: #a2c088; 
+        }
+
+        .light-purple-bg {
+            background-color: #f3e5f5; 
+        }
+
+
+        .lead-form-container {
+            background-color: rgb(202, 241, 252);
+        }
+
+        .lead-form-container input,
+        .lead-form-container select,
+        .lead-form-container textarea {
+            border: 1px solid #e0e0e0;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            width: 100%;
+        }
+
+        .lead-form-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 0.375rem;
+            width: 100%;
+        }
+
+        .check-icon {
+            color: green;
+            margin-right: 10px;
+        }
+        
+
+
+        .lead-form-container .input-group {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .lead-form-container .input-group div {
+            width: 48%;
+        }
+
+        .lead-form-container button {
+            margin-top: 1rem;
+        }
+
+        .container-hover {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .container-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-color: #f7f7f7;
+        }
+   
+    .nav-bar {
+        background: #9eb6f9; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px; 
+    }
+
+    .nav-bar a {
+        font-size: 16px;
+        transition: all 0.3s ease;
+        text-transform: uppercase; 
+        color: black; 
+    }
+
+    .nav-bar .nav-item {
+        position: relative;
+    }
+
+    .nav-bar .nav-item::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff; 
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .nav-bar a:hover {
+        color: #f3f4f6; 
+    }
+
+    .nav-bar .nav-item:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .nav-bar a:hover {
+        color: #0e0e0f; 
+        padding-bottom: 6px;
+    }
+
+   
+    @media (max-width: 768px) {
+        .nav-bar {
+            padding: 12px 6px;
+        }
+        .nav-bar .container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .nav-bar .space-x-6 {
+            margin-top: 10px;
+        }
+    }
+
+</style>
+
+</head>
+
+<body class="font-sans bg-gray-100">
+    <nav class="nav-bar px-6 py-4">
+        <div class="container mx-auto flex items-center justify-between text-white">
+            <div class="text-lg font-semibold">
+                <a href="#" class="hover:text-gray-300 flex items-center space-x-2">
+
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="space-x-6 flex items-center">
+                <div class="nav-item">
+                    <a href="#why-study" class="hover:text-gray-300 flex items-center space-x-2">
+                        <span>❓</span>
+                        <span>Why GT?</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#courses" class="hover:text-gray-300 flex items-center space-x-2">
+                        <span>📚</span>
+                        <span>Courses Offered</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#services" class="hover:text-gray-300 flex items-center space-x-2">
+                        <span>⚙</span>
+                        <span>Services</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#testimonials" class="hover:text-gray-300 flex items-center space-x-2">
+                        <span>⭐</span>
+                        <span>Testimonials</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact" class="hover:text-gray-300 flex items-center space-x-2">
+                        <span>📞</span>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<section class="hero-bg py-24 text-center text-white relative overflow-hidden">
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <h1 class="text-6xl font-extrabold mb-6 animate_animated animate_fadeInUp text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-red-500 to-green-500 animate-floating text-shadow-xl">
+            Apply Now for MBBS Abroad
+        </h1>
+        
+        <p class="text-xl mb-6 max-w-3xl mx-auto animate_animated animate_fadeInUp">Embark on your journey to become a globally recognized medical professional.<br> Study in world-renowned universities with top-notch facilities and a global network.<br> Don't miss out on the chance to learn from the best!</p>
+        
+        <a href="#apply" class="bg-blue-700 text-white py-3 px-8 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-800 hover:shadow-lg">Apply Now</a>
+
+        <div class="mt-8 text-lg text-black-500"> 
+            <p class="mb-4">Begin your path to excellence in medicine today. Study at the best institutions around the world,<br> with affordable fees and endless opportunities. Start now to shape your future as a doctor!</p>
+            <p class="font-semibold">Don't wait! The world needs more doctors like you.</p>
+        </div>
+        
+</section>
+
+<style>
+    @keyframes floating {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .text-shadow-xl {
+        text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .animate-floating {
+        animation: floating 2s ease-in-out infinite;
+    }
+
+    .hero-bg {
+        background-image: linear-gradient(135deg, #6e7fef, #95edf7); /* gradient background */
+        background-size: cover;
+        background-position: center;
+        color: rgb(7, 7, 7);
+        height: 100vh;
+    }
+</style>
+        
+
+
+
+
+   <!-- Why Study MBBS Abroad Section -->
+<section class="py-16 bg-gradient-to-r from-pink-200 via-purple-100 to-blue-200" id="why-study">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-8">Why Study MBBS Abroad?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="check-icon fas fa-check-circle text-2xl text-green-500"></i>
+                    <h3 class="text-xl font-semibold">Affordable Tuition Fees</h3>
+                </div>
+                <ul class="text-gray-700 list-disc ml-6">
+                    <li>Study at a fraction of the cost of Western medical schools.</li>
+                    <li>Access to high-quality education at a lower cost of living.</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="check-icon fas fa-check-circle text-2xl text-green-500"></i>
+                    <h3 class="text-xl font-semibold">Global Recognition</h3>
+                </div>
+                <ul class="text-gray-700 list-disc ml-6">
+                    <li>Degrees that are globally recognized.</li>
+                    <li>Opportunities to practice medicine internationally.</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <div class="flex items-center justify-center mb-4">
+                    <i class="check-icon fas fa-check-circle text-2xl text-green-500"></i>
+                    <h3 class="text-xl font-semibold">Cultural Experience</h3>
+                </div>
+                <ul class="text-gray-700 list-disc ml-6">
+                    <li>Immerse in new cultures and expand your worldview.</li>
+                    <li>Build international networks and friendships.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Top Countries Section -->
+    <section class="py-16 gradient-bg" id="countries">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8 text-black-500">Top Countries to Study MBBS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Russia</h3>
+                    <p class="text-gray-700">Affordable and high-quality medical education with global recognition.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Uzbekistan</h3>
+                    <p class="text-gray-700">World-class universities offering English-medium programs at affordable rates.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Kazakhstan</h3>
+                    <p class="text-gray-700">Affordable tuition fees with a high standard of education in the medical field.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Philippines</h3>
+                    <p class="text-gray-700">A popular choice for MBBS with English language medium and low-cost living.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Georgia</h3>
+                    <p class="text-gray-700">Study in internationally recognized medical schools with modern facilities.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Kyrgyzstan</h3>
+                    <p class="text-gray-700">Affordable education and a wide range of top universities for MBBS.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-lg container-hover">
+                    <h3 class="text-xl font-semibold mb-4">Egypt</h3>
+                    <p class="text-gray-700">MBBS programs in Egypt are recognized worldwide and are highly affordable.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+   <!-- Admission Process & Eligibility Section -->
+<section class="py-16 light-purple-bg" id="why-study">
+
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-8 text-black-500">Admission Process & Eligibility</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <h3 class="text-xl font-semibold mb-4">Step 1: Choose Your Country</h3>
+                <p class="text-gray-700">Select the country where you want to study MBBS based on your preferences and eligibility.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <h3 class="text-xl font-semibold mb-4">Step 2: Check Eligibility</h3>
+                <p class="text-gray-700">Ensure you meet the eligibility criteria for the selected country’s medical program.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <h3 class="text-xl font-semibold mb-4">Step 3: Submit Your Application</h3>
+                <p class="text-gray-700">Fill out the online application form and submit the required documents.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg container-hover">
+                <h3 class="text-xl font-semibold mb-4">Step 4: Receive Admission Offer</h3>
+                <p class="text-gray-700">Once accepted, you will receive an admission offer and can proceed with visa processing.</p>
+            </div>
+        </div>
+        <div class="mt-8">
+            <a href="#apply" class="bg-blue-600 text-white py-3 px-8 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-green-700 hover:shadow-lg">
+                Check Your Eligibility
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Lead Form Section -->
+    <section class="py-16" id="apply">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Get Started Today</h2>
+            <div class="lead-form-container max-w-4xl mx-auto p-8 rounded-lg shadow-lg">
+                <form action="submit_form.php" method="POST">
+                    <div class="input-group">
+                        <!-- Full Name -->
+                        <div class="mb-4">
+                            <label for="name" class="block text-lg font-semibold text-gray-700">Your Name</label>
+                            <input type="text" id="name" name="name" class="p-3 border text-gray-800" placeholder="Enter Your Name" required>
+                        </div>
+
+                        <!-- Mobile Number -->
+                        <div class="mb-4">
+                            <label for="mobile" class="block text-lg font-semibold text-gray-700">Your Mobile No</label>
+                            <input type="tel" id="mobile" name="mobile" class="p-3 border text-gray-800" placeholder="Enter Your Mobile No" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <label for="email" class="block text-lg font-semibold text-gray-700">Your Email ID</label>
+                            <input type="email" id="email" name="email" class="p-3 border text-gray-800" placeholder="Enter Your Email *" required>
+                        </div>
+
+                        <!-- Current City -->
+                        <div class="mb-4">
+                            <label for="city" class="block text-lg font-semibold text-gray-700">Your Current City</label>
+                            <input type="text" id="city" name="city" class="p-3 border text-gray-800" placeholder="Enter Your Current City" required>
+                        </div>
+                    </div>
+                <div class="input-group">
+                    <!-- Highest Education Qualification -->
+                    <div class="mb-4">
+                        <label for="qualification" class="block text-lg font-semibold text-gray-700">Your Highest Education Qualification?</label>
+                        <input type="text" id="qualification" name="qualification" class="p-3 border text-gray-800" placeholder="Enter Your Qualification" required>
+                    </div>
+
+                    <!-- Study Level -->
+                    <div class="mb-4">
+                        <label for="study_level" class="block text-lg font-semibold text-gray-700">Planning for Bachelors / Master's?</label>
+                        <select id="study_level" name="study_level" class="p-3 border text-gray-800" required>
+                            <option value="Bachelors/undergraduate">Bachelors/undergraduate</option>
+                            <option value="Masters/postgraduate">Masters/postgraduate</option>
+                            <option value="PHD">PHD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <!-- Country Preference -->
+                    <div class="mb-4">
+                        <label for="country" class="block text-lg font-semibold text-gray-700">Pick Country Interested to Study?</label>
+                        <select id="country" name="country" class="p-3 border text-gray-800" required>
+                            <option value="Russia">Russia</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Egypt">Egypt</option>
+                        </select>
+                    </div>
+
+                    <!-- Course/Program -->
+                    <div class="mb-4">
+                        <label for="course" class="block text-lg font-semibold text-gray-700">What Course / Program want to Study?</label>
+                        <input type="text" id="course" name="course" class="p-3 border text-gray-800" placeholder="Course/Program" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <!-- Intake -->
+                    <div class="mb-4">
+                        <label for="intake" class="block text-lg font-semibold text-gray-700">Looking for Which Intake?</label>
+                        <select id="intake" name="intake" class="p-3 border text-gray-800" required>
+                            <option value="Spring">Spring</option>
+                            <option value="Fall">Fall</option>
+                            <option value="Summer">Summer</option>
+                        </select>
+                    </div>
+
+                    <!-- Test Status -->
+                    <div class="mb-4">
+                        <label for="test_status" class="block text-lg font-semibold text-gray-700">Do you have Valid Test Scores?</label>
+                        <select id="test_status" name="test_status" class="p-3 border text-gray-800" required>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                </div>
+                    <!-- Submit Button -->
+                    <div>
+                        <button type="submit" class="p-3 bg-green-600 text-white rounded-lg">Submit Your Form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<footer class="bg-gray-800 text-white py-4 mt-16">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2025 mededuworld. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
